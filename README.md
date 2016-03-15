@@ -10,4 +10,11 @@ It's all writen in Less/Css, no icons were used, and other external stuff.
 Best
 Vladimir
 
+Follow me on Twitter
+@luminousdot 
+
+Follow me on Behance
+behance.com/vladadevic
+
+
 
