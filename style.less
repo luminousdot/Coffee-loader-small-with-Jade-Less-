@@ -1,0 +1,136 @@
+@color-primary-loader: white;
+@color-primary-theme: #8b6139;
+
+body{
+  background: @color-primary-theme;
+  color: white;
+  font-family: 'Parisienne', cursive;
+  font-size: 24px;  
+}
+
+.coffeeloader {
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+      p{
+      position: relative;
+      top: 30px;
+      text-align: center;
+      }
+      .cupcontainer {
+        width: 60px;
+        height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 70px;
+        left: 13px;
+        .cup{
+          border-bottom: 20px solid @color-primary-loader;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          height: 0;
+          width: 20px;
+          transform: rotate(180deg);
+          position: relative;
+          left: -3px;
+          top: 5px;
+          z-index: 2;
+        }
+         .handle{
+          width: 18px;
+          height: 5px;
+          border: 2px solid @color-primary-loader;
+          position: relative;
+          top: -10px;
+          left: 20px;
+          z-index: 1;
+        }
+    }
+    .plate{
+      background: @color-primary-loader;
+      width: 70px;
+      height: 1px;
+      border-radius: 3px;
+      position: relative;
+      top: 40px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .bottom{
+      background: @color-primary-loader;
+      width: 30px;
+      height: 1px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      position: relative;
+      top: 40px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+.steam {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 70px;
+  left: 13px;
+  .smoke1 {
+     width: 3px;
+     height: 30px;
+     float: left;
+     margin-right: 3px;
+     margin-left: 2px;
+     border-radius: 3px;
+    &::before, &::after {
+      content: "";
+      background: @color-primary-loader;
+      position: absolute;
+      animation: load .9s infinite reverse ease-in-out;
+      border-radius: 3px;
+    }
+  }
+  .smoke2 {
+   width: 3px;
+   height: 15px;
+   float: left;
+   margin-right: 2px;
+   margin-left: 3px;
+   border-radius: 3px;
+    &::before, &::after {
+      content: "";
+      background: @color-primary-loader;
+      position: absolute;
+      animation: load .6s infinite reverse ease-in-out;
+      border-radius: 3px;
+      margin-top: 5px;
+    }
+  }
+  .smoke3 {
+   width: 6px;
+   height: 30px;
+   float: left;
+   margin-right: 2px;
+   margin-left: 3px;
+   border-radius: 3px;
+    &::before, &::after {
+      content: "";
+      background: @color-primary-loader;
+      position: absolute;
+      animation: load .9s infinite .5s reverse ease-in-out;
+      border-radius: 3px;
+    }
+  }
+}
+
+@keyframes load {
+  0% { top: 0; height: 30px; width: 1px; opacity: 0; }
+  20% {opacity: 0.5; }
+  100% { top: 29px; height: 15px; width: 1px; opacity: 0;}
+}
+
