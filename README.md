@@ -13,10 +13,10 @@ Best
 Vladimir
 
 Follow me on Twitter
-@luminousdot 
+https://twitter.com/luminousdot
 
 Follow me on Behance
-behance.com/vladadevic
+https://behance.com/vladadevic
 
 
 
