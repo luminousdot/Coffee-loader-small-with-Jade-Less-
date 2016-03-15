@@ -6,6 +6,8 @@ It quickly became popular among other designers and developers, so I decided to 
 Use it freely, change it, modify it, do whatever you would like and just give me some credits in the comments. 
 It's all writen in Less/Css, no icons were used, and other external stuff.
 
+Check the loader in action here 
+http://codepen.io/luminousdot/pen/QbOEOB
 
 Best
 Vladimir
